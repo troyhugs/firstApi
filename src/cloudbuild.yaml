@@ -1,0 +1,13 @@
+steps:
+# Install
+- name: 'gcr.io/cloudbuilders/firstApi'
+  args: ['install']
+# Test
+- name: 'gcr.io/cloudbuilders/firstApi'
+  args: ['run', 'test:unit']
+# Build
+- name: 'gcr.io/cloudbuilders/firstApi'
+  args: ['run', 'build']
+# Deploy
+- name: 'gcr.io/cloudbuilders/firstApi'
+  args: ['deploy']
