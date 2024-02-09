@@ -6,7 +6,7 @@ app = FastAPI()
 
 @app.get("/")
 def central_function():
-    return {"Hello": "World"}
+    return {"Hello": "John"}
 
 
 if __name__ == "__main__":
